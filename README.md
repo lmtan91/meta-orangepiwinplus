@@ -7,3 +7,8 @@ mkdir mender-orangepi && cd mender-orangepi` \
 `repo sync` \
 `source setup-environment sunxi` \
 `MACHINE=orange-pi-win-plus bitbake core-image-base`
+
+## Connect to Wifi by wpa_supplicant
+`wpa_passphrase Moc 27052019 | tee /etc/wpa_supplicant.conf` \
+`wpa_supplicant -B -c /etc/wpa_supplicant.conf -i wlan0` \
+`dhclient wlan0`
