@@ -12,3 +12,6 @@ mkdir mender-orangepi && cd mender-orangepi` \
 `wpa_passphrase Moc 27052019 | tee /etc/wpa_supplicant.conf` \
 `wpa_supplicant -B -c /etc/wpa_supplicant.conf -i wlan0` \
 `dhclient wlan0`
+
+## Start sshd in orangepiwin
+`systemctl start sshd@.service`
