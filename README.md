@@ -15,3 +15,9 @@ mkdir mender-orangepi && cd mender-orangepi` \
 
 ## Start sshd in orangepiwin
 `systemctl start sshd@.service`
+
+## Mender demo
+### Follow this https://docs.mender.io/3.1/server-installation/demo-installation to setup the demo server.
+
+### Correct the DEMO_HOST_IP_ADDRESS to your PC.
+`MENDER_DEMO_HOST_IP_ADDRESS = "192.168.12.3"`
