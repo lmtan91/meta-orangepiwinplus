@@ -21,3 +21,9 @@ mkdir mender-orangepi && cd mender-orangepi` \
 
 ### Correct the DEMO_HOST_IP_ADDRESS to your PC.
 `MENDER_DEMO_HOST_IP_ADDRESS = "192.168.12.3"`
+
+## Mender production
+
+## TFTP and NFS boot
+
+## Gstreamer
